@@ -8,7 +8,9 @@ int main()
     int x=5;
     float y= 10;
     y= (float) x;
-    printf("x= %d\n  y= %f\n", x,y);
+    int z='A';
+    y= (int) z;
+    printf("x= %d\n  y= %f\n z=%d", x,y,z);
    
     
 }
