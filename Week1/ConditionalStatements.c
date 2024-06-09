@@ -1,5 +1,7 @@
 #include<stdio.h>
 int main()
+//if else statements
+
 {
     float age;
     printf("enter your age");
