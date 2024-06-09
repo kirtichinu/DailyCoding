@@ -4,14 +4,11 @@
 
 int main()
 {
-
-    // Declaring varoiables
-    int n = 0,i =0;
-    printf("\nElements are\n %d", n);
-
-    // Typecasing it
-
-
-    // input output
+    // Typecasting it
+    int x=5;
+    float y= 10;
+    y= (float) x;
+    printf("x= %d\n  y= %f\n", x,y);
+   
     
 }

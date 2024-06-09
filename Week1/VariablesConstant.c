@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    //Variable declaration
+    //Variable declaration 
     //  integer
 
     int a=1;
