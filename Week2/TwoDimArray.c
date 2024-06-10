@@ -4,15 +4,20 @@ int main()
     //TWO DIMENTIONAL ARRAYS
     int marks[2][3];
 
-    marks[0][0] =99;
-    marks[0][1] =98;
-    marks[0][2] =97;
+    printf("enter at 0,0 = ");
+    scanf("%d",&marks[0][0]);
 
-    marks[1][0] =90;
-    marks[1][1] =91;
-    marks[1][2] =92;
+    printf("enter at 0,1 = ");
+    scanf("%d",&marks[0][1]);
 
-    printf("%d\n",marks[0][0]);
+    printf("enter at 1,0 = ");
+    scanf("%d",&marks[1][0]);
+
+    printf("enter at 1,1 = ");
+    scanf("%d",&marks[1][1]);
+    
+ 
+    printf(" %d %d\n %d %d",marks[0][0], marks[0][1], marks[1][0], marks[1][1]);
     //similarly we can print any value we want by changing the position of the array in square braces.
     
     return 0;
