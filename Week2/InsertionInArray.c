@@ -28,6 +28,7 @@ int main()
     {
         printf("position not valid");
     }
+    //dccdxz
     else
     {
         // shift the elements
