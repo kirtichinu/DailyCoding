@@ -1,16 +1,34 @@
 #include <stdio.h>
+
+// Function to print the elements of an array
+void printArray(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d , ", arr[i]);
+    }
+    printf("\n"); // For better formatting, add a newline after printing all elements
+}
+
 int main()
 { // Inserting an element in an array
 
-    int arr[100], position, elt, i, size;
+    int position, elt, i, size;
     // initial size of the array
 
     printf("enter size of the array = ");
+
     scanf("%d", &size);
+    if (size <= 0)
+    {
+        printf("not valid chage your size\n");
+        return 0;
+    }
     // input elements in an array
 
     printf("enter elements: \n", size);
-    for (int i = 0; i < size; i++)
+    int arr[size+1];
+    for (i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]);
     }
@@ -24,29 +42,31 @@ int main()
 
     // ensure that the position is valid
 
-    if (position < 0 || position > size)
+    if (position < 1 || position >= size)
     {
         printf("position not valid");
     }
-    //dccdxz
+    // dccdxz
     else
     {
+         printArray(arr, size);
+
         // shift the elements
-        for (int i = size; i > position; i--)
+        for (i = size; i >= position; i--)
         {
             arr[i] = arr[i - 1];
         }
-        // insert a new element at the position
 
-        arr[position] = elt;
+       
+        // insert a new element at the position
+        arr[position - 1] = elt;
         // update arr size
         size++;
 
-        // print updated array
-        for (i = 0; i < size; i++)
-        {
-            printf("%d", arr[i]);
-        }
+        printArray(arr, size);
+        
+        
+
         printf("\n");
     }
     return 0;
