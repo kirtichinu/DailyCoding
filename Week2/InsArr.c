@@ -28,6 +28,4 @@ int main()
     printf("pos= %d", arr[position-1]);
     }
     return 0;
-
-
 }
