@@ -16,6 +16,6 @@ int main()
     int arr[] = {3, 5, 8, 15, 19};
     int n = 5, x = 9;
     int index = lowbound(arr, n, x);
-    printf("Lower bound is the index = \n", index);
+    printf("Lower bound is the index = %d\n", index);
     return 0;
 }
