@@ -1,5 +1,5 @@
-// code360 ninjas code
-// for lin search
+// code360 ninjas code for linear search
+
 int arraySum(int arr[], int n)
 {
     int sum = 0;
