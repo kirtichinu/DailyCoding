@@ -1,4 +1,4 @@
-// code360 ninjas code for linear search
+// code360 ninjas code for sum of all elements of the array
 
 int arraySum(int arr[], int n)
 {
