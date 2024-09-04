@@ -1,3 +1,7 @@
+//to find second largest elt of arrray
+
+
+
 #include <bits/stdc++.h> 
 int main()
 {
