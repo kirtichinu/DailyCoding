@@ -1,6 +1,4 @@
-//to find second largest elt of arrray
-
-
+//to find second largest elt of arrray in cpp
 
 #include <bits/stdc++.h> 
 int main()
