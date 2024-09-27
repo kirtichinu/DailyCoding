@@ -1,8 +1,8 @@
 #include<stdio.h>
-#define SIZE
+#define SIZE 5
 #include<stdlib.h>
 
-void insertionSort(int a[SIZE], int n)
+void insertionSort(int a[], int n)
 {
     int i,j,temp;
     for(i=1;i<n;i++)
@@ -21,13 +21,13 @@ void insertionSort(int a[SIZE], int n)
 }
 int main()
 {
-    int a[SIZE],n,i,x;
-    int n=5;
+    int a[5]={12,56,2,34,1};
+    int n=SIZE,i;
     printf("Sorted array is = ");
     (insertionSort(a,n));
     for(i=0;i<n;i++)
     {
-        printf("%d",&a[i]);
+        printf("%d ",a[i]);
 
     }
     return 0;
