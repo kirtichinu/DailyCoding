@@ -16,7 +16,7 @@ void create(int arr[], int n)
     first -> next =NULL;
     last = first;
 
-    for(i= 0;i< n;i++)
+    for(i= 1;i< n;i++)
     {
         t=(struct Node*)malloc(sizeof(struct Node));
         t->data = arr[i];
@@ -35,7 +35,7 @@ int count(struct Node *p)
         length++;
         p = p->next;
     }
-    return length-1;
+    return length;
 
 }
 
