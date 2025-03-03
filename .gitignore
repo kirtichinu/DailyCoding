@@ -29,3 +29,15 @@ Week2/STRINGS/ReverseLettersInString.exe
 .vscode/tasks.json
 Week4/14_Oct.c
 Week4/14_Oct.c
+Dec2024/test1/DecodeString.exe
+*/*.exe
+Dec2024/test1/linkelistrev.exe
+Dec2024/test1/string.exe
+Dec2024/test1/DecodeString.c
+Dec2024/test1/linkelistrev.c
+Dec2024/test1/DecodeString.c
+tests/test1/DecodeString.exe
+tests/test1/linkelistrev.exe
+tests/test1/string.exe
+.gitignore
+Dec2024/test1/linkelistrev.exe
