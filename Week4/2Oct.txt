@@ -1,0 +1,14 @@
+Quick sort
+
+based on divide and conquer rule
+
+pivot element is chosenby choice...usually first element
+for ex in an arr[]={10, 15, 1, 2 , 9, 16, 11};
+we partiotion the array into subarrays
+
+we take 10 as the pivot and take all elements less than 10 towards its eft and all greater elements towards its right
+siilarly partitions are formed furtherore until the array is sorted.
+
+
+//next code would be of quick sort
+theory done today

@@ -1,0 +1,43 @@
+Week1/*.exe
+*/*.exe
+
+Week2/build/Debug/outDebug.exe
+Week2/build/Debug/InsertionInArray.o
+.vscode/launch.json
+.vscode/launch.json
+Week2/Binary search/BinarySearch.exe
+Week2/BinarySearch.c
+Week2/BinarySearch.c
+Week2/MissingPositiveInteger.c
+W2_Practice/PracticeMergeSort.c
+Week2/Binary search/IterativeBS.exe
+Week2/BinarySearch.c
+Week2/Binary search/RecursiveBS.exe
+*/*.exe
+
+Week2/Binary search/MoveZeroesToLast.exe
+Week2/Binary search/ImplementLowerBound.exe
+Week2/ArrayIntro.exe
+Week2/Binary search/ImplementUpperBound.exe
+Week2/*.exe
+*/*.exe
+Week2/*.exe
+Week2/STRINGS/LengthWithoutLibraryFunc.exe
+Week2/*.exe
+Week2/STRINGS/CountLengthOfString.exe
+Week2/STRINGS/ReverseLettersInString.exe
+.vscode/tasks.json
+Week4/14_Oct.c
+Week4/14_Oct.c
+Dec2024/test1/DecodeString.exe
+*/*.exe
+Dec2024/test1/linkelistrev.exe
+Dec2024/test1/string.exe
+Dec2024/test1/DecodeString.c
+Dec2024/test1/linkelistrev.c
+Dec2024/test1/DecodeString.c
+tests/test1/DecodeString.exe
+tests/test1/linkelistrev.exe
+tests/test1/string.exe
+.gitignore
+Dec2024/test1/linkelistrev.exe
